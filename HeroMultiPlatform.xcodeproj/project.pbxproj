@@ -10,12 +10,19 @@
 		25B0559D29C265FA003666A6 /* HeroMultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0559C29C265FA003666A6 /* HeroMultiPlatformApp.swift */; };
 		25B0559F29C265FA003666A6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B0559E29C265FA003666A6 /* Persistence.swift */; };
 		25B055A229C265FA003666A6 /* HeroMultiPlatform.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25B055A029C265FA003666A6 /* HeroMultiPlatform.xcdatamodeld */; };
-		25B055A429C265FA003666A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B055A329C265FA003666A6 /* ContentView.swift */; };
 		25B055A629C265FC003666A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B055A529C265FC003666A6 /* Assets.xcassets */; };
 		25B055AA29C265FC003666A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B055A929C265FC003666A6 /* Preview Assets.xcassets */; };
 		25B055B429C265FD003666A6 /* HeroMultiPlatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B055B329C265FD003666A6 /* HeroMultiPlatformTests.swift */; };
 		25B055BE29C265FD003666A6 /* HeroMultiPlatformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B055BD29C265FD003666A6 /* HeroMultiPlatformUITests.swift */; };
 		25B055C029C265FD003666A6 /* HeroMultiPlatformUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B055BF29C265FD003666A6 /* HeroMultiPlatformUITestsLaunchTests.swift */; };
+		25B055D329C2681F003666A6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B055D229C2681F003666A6 /* LoginView.swift */; };
+		25B055D929C26B0F003666A6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B055DD29C26B0F003666A6 /* Localizable.strings */; };
+		25B055DA29C26B0F003666A6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B055DD29C26B0F003666A6 /* Localizable.strings */; };
+		25B055DB29C26B0F003666A6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25B055DD29C26B0F003666A6 /* Localizable.strings */; };
+		25B055E129C26CAD003666A6 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B055E029C26CAD003666A6 /* KeyChain.swift */; };
+		25B055E229C26CAD003666A6 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B055E029C26CAD003666A6 /* KeyChain.swift */; };
+		25B055E329C26CAD003666A6 /* KeyChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B055E029C26CAD003666A6 /* KeyChain.swift */; };
+		25B055E629C26E33003666A6 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 25B055E529C26E33003666A6 /* KeychainSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +47,6 @@
 		25B0559C29C265FA003666A6 /* HeroMultiPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroMultiPlatformApp.swift; sourceTree = "<group>"; };
 		25B0559E29C265FA003666A6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		25B055A129C265FA003666A6 /* HeroMultiPlatform.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HeroMultiPlatform.xcdatamodel; sourceTree = "<group>"; };
-		25B055A329C265FA003666A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		25B055A529C265FC003666A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25B055A729C265FC003666A6 /* HeroMultiPlatform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeroMultiPlatform.entitlements; sourceTree = "<group>"; };
 		25B055A929C265FC003666A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -49,6 +55,11 @@
 		25B055B929C265FD003666A6 /* HeroMultiPlatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeroMultiPlatformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B055BD29C265FD003666A6 /* HeroMultiPlatformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroMultiPlatformUITests.swift; sourceTree = "<group>"; };
 		25B055BF29C265FD003666A6 /* HeroMultiPlatformUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroMultiPlatformUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		25B055D229C2681F003666A6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		25B055DC29C26B0F003666A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		25B055DE29C26B11003666A6 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		25B055DF29C26B11003666A6 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		25B055E029C26CAD003666A6 /* KeyChain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B055E629C26E33003666A6 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,13 +111,18 @@
 		25B0559B29C265FA003666A6 /* HeroMultiPlatform */ = {
 			isa = PBXGroup;
 			children = (
+				25B055D029C267CC003666A6 /* Models */,
+				25B055CF29C267B5003666A6 /* Services */,
+				25B055CE29C267A9003666A6 /* Views */,
+				25B055CD29C26797003666A6 /* ViewModels */,
+				25B055CC29C2678C003666A6 /* Tools */,
 				25B0559C29C265FA003666A6 /* HeroMultiPlatformApp.swift */,
 				25B0559E29C265FA003666A6 /* Persistence.swift */,
-				25B055A329C265FA003666A6 /* ContentView.swift */,
 				25B055A529C265FC003666A6 /* Assets.xcassets */,
 				25B055A729C265FC003666A6 /* HeroMultiPlatform.entitlements */,
 				25B055A029C265FA003666A6 /* HeroMultiPlatform.xcdatamodeld */,
 				25B055A829C265FC003666A6 /* Preview Content */,
+				25B055DD29C26B0F003666A6 /* Localizable.strings */,
 			);
 			path = HeroMultiPlatform;
 			sourceTree = "<group>";
@@ -135,6 +152,51 @@
 			path = HeroMultiPlatformUITests;
 			sourceTree = "<group>";
 		};
+		25B055CC29C2678C003666A6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				25B055E029C26CAD003666A6 /* KeyChain.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		25B055CD29C26797003666A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		25B055CE29C267A9003666A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25B055D129C267D9003666A6 /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25B055CF29C267B5003666A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		25B055D029C267CC003666A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25B055D129C267D9003666A6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				25B055D229C2681F003666A6 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,6 +213,9 @@
 			dependencies = (
 			);
 			name = HeroMultiPlatform;
+			packageProductDependencies = (
+				25B055E529C26E33003666A6 /* KeychainSwift */,
+			);
 			productName = HeroMultiPlatform;
 			productReference = 25B0559929C265FA003666A6 /* HeroMultiPlatform.app */;
 			productType = "com.apple.product-type.application";
@@ -221,8 +286,13 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
+				it,
 			);
 			mainGroup = 25B0559029C265F9003666A6;
+			packageReferences = (
+				25B055E429C26E33003666A6 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 25B0559A29C265FA003666A6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B055AA29C265FC003666A6 /* Preview Assets.xcassets in Resources */,
+				25B055D929C26B0F003666A6 /* Localizable.strings in Resources */,
 				25B055A629C265FC003666A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B055DA29C26B0F003666A6 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25B055DB29C26B0F003666A6 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +340,8 @@
 			files = (
 				25B055A229C265FA003666A6 /* HeroMultiPlatform.xcdatamodeld in Sources */,
 				25B0559D29C265FA003666A6 /* HeroMultiPlatformApp.swift in Sources */,
-				25B055A429C265FA003666A6 /* ContentView.swift in Sources */,
+				25B055E129C26CAD003666A6 /* KeyChain.swift in Sources */,
+				25B055D329C2681F003666A6 /* LoginView.swift in Sources */,
 				25B0559F29C265FA003666A6 /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B055B429C265FD003666A6 /* HeroMultiPlatformTests.swift in Sources */,
+				25B055E229C26CAD003666A6 /* KeyChain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25B055BE29C265FD003666A6 /* HeroMultiPlatformUITests.swift in Sources */,
+				25B055E329C26CAD003666A6 /* KeyChain.swift in Sources */,
 				25B055C029C265FD003666A6 /* HeroMultiPlatformUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +379,19 @@
 			targetProxy = 25B055BA29C265FD003666A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25B055DD29C26B0F003666A6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25B055DC29C26B0F003666A6 /* en */,
+				25B055DE29C26B11003666A6 /* it */,
+				25B055DF29C26B11003666A6 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		25B055C129C265FD003666A6 /* Debug */ = {
@@ -620,6 +709,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		25B055E429C26E33003666A6 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		25B055E529C26E33003666A6 /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 25B055E429C26E33003666A6 /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		25B055A029C265FA003666A6 /* HeroMultiPlatform.xcdatamodeld */ = {
